@@ -3,24 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <title>Αρχική Σελίδα</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1 >Αρχική Σελίδα</h1>
         <!-- NAVIGATION BAR -->
-         <div class="navigation-bar">
-                 <ul>
-                     <li><button class="navigation" onclick="window.location.href='./index.html'">Αρχική Σελίδα</button></li>
-                     <li><button class="navigation" onclick="window.location.href='./announcement.html'">Ανακοινώσεις</button></li>
-                     <li><button class="navigation" onclick="window.location.href='./communication.html'">Επικοινωνία</button></li>
-                     <li><button class="navigation" onclick="window.location.href='./documents.html'">Έγγραφα Μαθήματος</button></li>
-                     <li><button class="navigation" onclick="window.location.href='./homework.html'">Εργασίες</button></li>
+        <ul class="navigation-list">
+            <li><button class="navigation" onclick="window.location.href='./index.html'">Αρχική Σελίδα</button></li>
+            <li><button class="navigation" onclick="window.location.href='./announcement.html'">Ανακοινώσεις</button></li>
+            <li><button class="navigation" onclick="window.location.href='./communication.html'">Επικοινωνία</button></li>
+            <li><button class="navigation" onclick="window.location.href='./documents.html'">Έγγραφα Μαθήματος</button></li> 
+            <li><button class="navigation" onclick="window.location.href='./homework.html'">Εργασίες</button></li>
+        </ul>
+          
+            <!-- WELCOMING TEXT AND IMAGE-->
+        <div class="welcome-container ">
 
-                </ul>
+            <p class="welcome-txt">Καλωσήρθατε στην ιστοσελίδα του μαθήματρος εκμάθησης HTML/PHP.
+                    Εδώ θα βρείτε ότι θα χρειαστείτε για να ξεκινήσετε το ταξίδια σας στον κόσμο των ιστοσελίδων!
+                    Στο navigation bar στα αριστερά της ιστοσελίδας θα βρείτε τις ανακοινώσεις του μαθήματος, τους τρόπους επικοινωνίας με τον διδάσκοντα, το υλικό του μαθήματος όπως και τις εργασίες που έχουν ανακοινωθεί για το μάθημα.
+                    Στόχος είναι στο τέλος του εξαμήνου να έχετε την δυνατότητα να αναπτύσσετε ιστοσελίδες, όπως και να τις διαμορφώνεται με όποιον τρόπο θέλετε εσείς.
+            </p>
+
+            <img src="./img/mainpage.jpg" class="welcome-img">
+
         </div>
-        <!-- WELCOMING TEXT AND IMAGE-->
-        <p>Καλωσήρθατε στην ιστοσελίδα του μαθήματρος εκμάθησης HTML/PHP. Εδώ θα βρείτε ότι θα χρειαστείτε για να ξεκινήσετε το ταξίδια σας στον κόσμο των ιστοσελίδων! Στο navigation bar στα αριστερά της ιστοσελίδας 
-            θα βρείτε τις ανακοινώσεις του μαθήματος, τους τρόπους επικοινωνίας με τον διδάσκοντα, το υλικό του μαθήματος όπως και τις εργασίες που έχουν ανακοινωθεί για το μάθημα.Στόχος είναι στο τέλος του εξαμήνου να έχετε την δυνατότητα να αναπτύσσετε ιστοσελίδες, όπως και να τις διαμμορφώνεται με όποιον τρόπο θέλετε εσείς.
-        </p>
-        <img src="./img/mainpage.jpg">
+        
     </body>
 </html>

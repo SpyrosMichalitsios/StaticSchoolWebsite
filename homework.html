@@ -3,21 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <title>Εργασίες</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Εργασίες</h1>
         <!-- NAVIGATION BAR -->
-        <div>
-        <ul>
+        <ul class="navigation-list">
             <li><button class="navigation" onclick="window.location.href='./index.html'">Αρχική Σελίδα</button></li>
             <li><button class="navigation" onclick="window.location.href='./announcement.html'">Ανακοινώσεις</button></li>
             <li><button class="navigation" onclick="window.location.href='./communication.html'">Επικοινωνία</button></li>
-            <li><button class="navigation" onclick="window.location.href='./documents.html'">Έγγραφα Μαθήματος</button></li>
+            <li><button class="navigation" onclick="window.location.href='./documents.html'">Έγγραφα Μαθήματος</button></li> 
             <li><button class="navigation" onclick="window.location.href='./homework.html'">Εργασίες</button></li>
         </ul>
-        </div>
         <!--HOMEWORK-->
-        <div id="homework">
+        <div class="homework">
+            
 
             <h2>Εργασία 1</h2>
             <p>Οι στόχοι τις εργασίας είναι οι εξής:</p>
@@ -37,7 +37,7 @@
             </p>
             <strong><em>Ημερομηνία παράδοσης:26/01/2024</em></strong>
 
-            <hr width="50%" align="left" >
+            <hr>
 
             <h2>Εργασία 2</h2>
             <p>Οι στόχοι τις εργασίας είναι οι εξής:</p>
@@ -56,7 +56,7 @@
             </p>
             <strong><em>Ημερομηνία παράδοσης:27/02/2024</em></strong>
 
-            <hr width="50%" align="left">
+            <hr>
 
             <h2>Εργασία 3</h2>
             <p>Οι στόχοι τις εργασίας είναι οι εξής:</p>
@@ -75,7 +75,7 @@
             </p>
             <strong><em>Ημερομηνία παράδοσης:02/02/2024</em></strong>
 
-            <hr width="50%" align="left">
+            <hr>
 
             <h2>Εργασία 4</h2>
             <p>Οι στόχοι τις εργασίας είναι οι εξής:</p>
@@ -95,14 +95,8 @@
                 </ol>
             </p>
             <strong><em>Ημερομηνία παράδοσης:06/04/2024</em></strong>
-
-
-
-
-
-
         </div>
         <!-- BACK TO TOP BUTTON -->
-        <button onclick="window.location.href='#top'" id="toTopBtn">Επιστροφή στην κορυφή.</button>
+        <button onclick="window.location.href='#top'" id="toTopBtn"><img src="./img/up-arrow.jpg" alt="Back to top." width="50" height="50"></button>
     </body>
 </html>

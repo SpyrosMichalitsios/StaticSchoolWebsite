@@ -3,49 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Έγγραφα μαθήματος</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Έγγραφα Μαθήματος</h1>
     <!-- NAVIGATION BAR -->
-    <div class="navigation-bar">
-        <ul>
-            <li><button class="navigation" onclick="window.location.href='./index.html'">Αρχική Σελίδα</button></li>
-            <li><button class="navigation" onclick="window.location.href='./announcement.html'">Ανακοινώσεις</button></li>
-            <li><button class="navigation" onclick="window.location.href='./communication.html'">Επικοινωνία</button></li>
-            <li><button class="navigation" onclick="window.location.href='./documents.html'">Έγγραφα Μαθήματος</button></li>
-            <li><button class="navigation" onclick="window.location.href='./homework.html'">Εργασίες</button></li>
-        </ul>
-    </div>
+    <ul class="navigation-list">
+        <li><button class="navigation" onclick="window.location.href='./index.html'">Αρχική Σελίδα</button></li>
+        <li><button class="navigation" onclick="window.location.href='./announcement.html'">Ανακοινώσεις</button></li>
+        <li><button class="navigation" onclick="window.location.href='./communication.html'">Επικοινωνία</button></li>
+        <li><button class="navigation" onclick="window.location.href='./documents.html'">Έγγραφα Μαθήματος</button></li> 
+        <li><button class="navigation" onclick="window.location.href='./homework.html'">Εργασίες</button></li>
+    </ul>
     <!-- DOCUMENTS FOR THE LESSON -->
     <div class="documents">
         <h2><strong>Εισαγωγή μαθήματος</strong></h2>
         <p>Περιγραφη: Το αρχείο αυτό περιέχει τη εισαγωγή του μαθήματος όπως και τον τρόπου βαθμολόγησης και τα συγγράματα που προτείνεται να επιλέξετε.</p><br>
         <a href="./docs/keimeno1.doc">Κατέβασε το αρχείο</a>
-
         <p>Εδώ θα βρέιτε όλα τα απαραίτητα αρχεία για το μάθημα αυτό.</p>
+
+        <hr>
+
         <h2><strong>Προαπαιτούμενες γνώσεις</strong></h2>
         <p>Περιγραφη: Το αρχείο αυτό περιέχει συνοπτικά όλες τις προαπαιτούμενες γνώσεις που θα χρειαστείτε για το μαθημα.</p><br>
         <a href="./docs/keimeno1.doc">Κατέβασε το αρχείο</a>
+
+        <hr>
 
         <h2><strong>Σημειώσεις πρώτου μαθήματος.</strong></h2>
         <p>Περιγραφη: Το αρχείο αυτό περιέχει τις σημειώσεις του πρώτου μαθήματος και θα σας βοηθήσει να μελετήσετε αποδοτικότερα.</p><br>
         <a href="./docs/keimeno1.doc">Κατέβασε το αρχείο</a>
 
+        <hr>
+
         <h2><strong>Σημειώσεις δεύτερου μαθήματος.</strong></h2>
         <p>Περιγραφη: Το αρχείο αυτό περιέχει τις σημειώσεις του δεύτερου μαθήματος.Παρακαλώ χρησιμοποιήστε τις σημειώσεις για δική σας διευκόλυνση</p><br>
         <a href="./docs/keimeno1.doc">Κατέβασε το αρχείο</a>
+
+        <hr>
 
         <h2><strong>Βαθμολογία πρώτου quiz</strong></h2>
         <p>Περιγραφη: Το αρχείο αυτό περιέχει την βαθμολογία για το πρώτο quiz που διεξήχθει στο μάθημα.</p><br>
         <a href="./docs/keimeno1.doc">Κατέβασε το αρχείο</a>
 
-        
+        <hr>
+
         <h2><strong>Ύλη εξετάσεων</strong></h2>
         <p>Περιγραφη: Το αρχείο αυτό περιέχει την ύλη του μαθήματος που θα εξετασθεί στις εξετάσεις στο τέλος.</p><br>
         <a href="./docs/keimeno1.doc">Κατέβασε το αρχείο</a>
     </div>
 
     <!-- BACK TO TOP BUTTON -->
-    <button onclick="window.location.href='#top'" id="toTopBtn">Επιστροφή στην κορυφή.</button>
+    <button onclick="window.location.href='#top'" id="toTopBtn"><img src="./img/up-arrow.jpg" alt="Back to top." width="50" height="50"></button>
 </body>
 </html>

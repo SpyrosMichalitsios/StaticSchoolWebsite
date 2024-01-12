@@ -1,0 +1,95 @@
+*{
+    color:aquamarine;
+    background-color: darkslategray;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+h1{
+    display: inline;
+    font-style: italic;
+    font-size:xx-large;
+    font-weight: 1000;
+    position: absolute;
+    left: 770px; 
+}
+
+
+#toTopBtn{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border: 0;
+}   
+
+body{
+    display: inline-flex;
+}
+
+/* THIS IS FOR THE NAVIGATION BAR */
+
+.navigation-list{
+    display: inline;
+    list-style: none;
+    max-inline-size: 500px;
+    position: absolute;
+}
+
+/* List elements in the navigation list */
+.navigation-list li{
+    margin: 20px;
+}
+
+.navigation-list button{
+   width: 100%;
+   text-align: center;
+   border-radius: 20px;
+}
+
+
+/* THIS IS FOR THE MAIN PAGE */
+.welcome-container{
+    display: inline-flex;
+    margin: 20px;
+    margin-top: 100px;
+   
+}
+
+#mainpage{
+    display: inline-flex;
+}
+
+.welcome-txt{
+   width: 600px;
+   margin: 30px;
+}
+
+.welcome-img{
+    width: 600px;
+}
+
+
+#announcement-page{
+    display: inline-flex;
+} 
+
+.announcement-bar{
+    display: inline;
+}
+
+
+
+
+h2{
+    display: inline;
+    border: 5px solid rgb(25, 42, 42);
+    padding: 5px;
+} 
+
+hr{
+    color: rgb(25, 42, 42);
+    margin: 30px;
+    display: block;
+}
