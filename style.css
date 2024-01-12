@@ -1,3 +1,4 @@
+/* THIS IS FOR EVERY PAGE */
 *{
     color:aquamarine;
     background-color: darkslategray;
@@ -8,12 +9,10 @@
 }
 
 h1{
-    display: inline;
+    text-align: center;
     font-style: italic;
     font-size:xx-large;
     font-weight: 1000;
-    position: absolute;
-    left: 770px; 
 }
 
 
@@ -25,60 +24,62 @@ h1{
 }   
 
 body{
-    display: inline-flex;
+    margin: 0;
+    margin-left: 10px;
 }
 
 /* THIS IS FOR THE NAVIGATION BAR */
 
 .navigation-list{
-    display: inline;
     list-style: none;
-    max-inline-size: 500px;
-    position: absolute;
+    padding: 0;
+    margin: 0;
 }
 
-/* List elements in the navigation list */
-.navigation-list li{
-    margin: 20px;
+
+.navigation-list a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    border: 15px solid rgb(44, 54, 54);
 }
 
-.navigation-list button{
-   width: 100%;
-   text-align: center;
-   border-radius: 20px;
+a:hover{
+    background-color:  rgb(44, 54, 54);
+
 }
 
 
 /* THIS IS FOR THE MAIN PAGE */
 .welcome-container{
-    display: inline-flex;
-    margin: 20px;
-    margin-top: 100px;
-   
+    display: flex;   
+    margin-right: 20px;
+
 }
 
-#mainpage{
-    display: inline-flex;
-}
 
 .welcome-txt{
    width: 600px;
-   margin: 30px;
+   margin: 20px;
+   flex: 1;
 }
 
 .welcome-img{
-    width: 600px;
+    width: 700px;
+    margin-top: 20px;
+    flex: 1;
 }
 
 
-#announcement-page{
+
+.announcement-container{
     display: inline-flex;
-} 
+}
 
 .announcement-bar{
-    display: inline;
+    flex: 1;
 }
-
 
 
 
