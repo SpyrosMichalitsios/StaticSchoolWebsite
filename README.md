@@ -25,13 +25,13 @@ All pages have implemented a navigation bar using `display:flex` for the placeme
 - ### announcement.html
   Displays course announcements, including date, topic, and announcement content.
 
-- ### Communication.html
+- ### communication.html
   Users can communicate with the instructor in two ways: through a web form and via an email service (Gmail), with a corresponding link.
 
-- ### Documents.html
+- ### documents.html
   Users can download files provided by the instructor. A placeholder "dummy" file is included in this example. Future files uploaded by the instructor will replace these placeholders.
 
-- ### Homework.html
+- ### homework.html
   Lists all posted assignments along with their due dates.
 
 
