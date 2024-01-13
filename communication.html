@@ -6,34 +6,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <h1>Επικοινωνία</h1>
-    <!-- NAVIAGATION BAR -->
-    <ul class="navigation-list">
-        <li><a class="navigation" href='./index.html'">Αρχική Σελίδα</a></li>
-        <li><a class="navigation" href='./announcement.html'">Ανακοινώσεις</a></li>
-        <li><a class="navigation" href='./communication.html'">Επικοινωνία</a></li>
-        <li><a class="navigation" href='./documents.html'">Έγγραφα Μαθήματος</a></li> 
-        <li><a class="navigation" href='./homework.html'">Εργασίες</a></li>
-    </ul>
-            
-    <div id="communication">
-        <p>Υπάρχουν δύο τρόποι επικοινωνίας με τον διδάσκοντα του μαθήματος:</p>
-        <!-- WEB FORM -->
-        <h2>Αποστολή e-mail μέσω web φόρμας:</h2>
-        <form>
-            <label for="sender"><strong>Αποστολέας:</strong></label><br>
-            <input type="text" id="sender"><br><br>
-            <label for="subject"><strong>Θέμα:</strong></label><br>
-            <input type="text" id="subject"><br><br>
-            <label for="txt"><strong>Κείμενο:</strong></label><br>   <!-- RESIZE IT WITH CSS -->
-            <input type="text" id="txt"><br>
-        </form>
-        <!-- E-MAIL -->
-        <h2>Αποστολή e-mail με χρήση e-mail διέυθυνσης.</h2>
-        <p>Μπορείτε να στείλετε e-mail μέσω προγράμματος αποστολής e-mail στην παρακάτω διεύθυνση ηλεκτρονικού ταχυδρομείου.</p>
-        <a href="https://www.google.com/gmail/about/" target="_blank" rel="noreferrer noopener">tutorsadress@csd.auth.gr</a>
 
-    </div>
+    <div class="communication-container page-container">
+        <!-- NAVIAGATION BAR -->
+        <ul class="navigation-list">
+            <li><a class="navigation" href='./index.html'">Αρχική Σελίδα</a></li>
+            <li><a class="navigation" href='./announcement.html'">Ανακοινώσεις</a></li>
+            <li><a class="navigation" href='./communication.html'">Επικοινωνία</a></li>
+            <li><a class="navigation" href='./documents.html'">Έγγραφα Μαθήματος</a></li> 
+            <li><a class="navigation" href='./homework.html'">Εργασίες</a></li>
+        </ul>
+                
+        <div class="main-content">
+            <p>Υπάρχουν δύο τρόποι επικοινωνίας με τον διδάσκοντα του μαθήματος:</p>
+            <!-- WEB FORM -->
+            <h2>Αποστολή e-mail μέσω web φόρμας:</h2>
+            <form class="email-form">
+                <label for="sender"><strong>Αποστολέας:</strong></label><br>
+                <input type="text" id="sender"><br><br>
+                <label for="subject"><strong>Θέμα:</strong></label><br>
+                <input type="text" id="subject"><br><br>
+                <label for="txt"><strong>Κείμενο:</strong></label><br>   <!-- RESIZE IT WITH CSS -->
+                <input type="text" id="txt"><br>
+            </form>
+            <!-- E-MAIL -->
+            <h2>Αποστολή e-mail με χρήση e-mail διέυθυνσης.</h2>
+            <p>Μπορείτε να στείλετε e-mail μέσω προγράμματος αποστολής e-mail στην παρακάτω διεύθυνση ηλεκτρονικού ταχυδρομείου.</p>
+            <a href="https://www.google.com/gmail/about/" target="_blank" rel="noreferrer noopener">tutorsadress@csd.auth.gr</a>
+
+        </div>
+   </div>
 </body>
 </html>
