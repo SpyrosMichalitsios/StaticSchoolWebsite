@@ -7,9 +7,9 @@ This repository contains the source code for the  static website of a potential 
 - [Pages](#pages)
   - [index.html](#indexhtml)
   - [announcement.html](#announcementhtml)
-  - [Communication.html](#communicationhtml)
-  - [Documents.html](#documentshtml)
-  - [Homework.html](#homeworkhtml)
+  - [communication.html](#communicationhtml)
+  - [documents.html](#documentshtml)
+  - [homework.html](#homeworkhtml)
 - [Styling](#styling)
 - [Usage](#usage)
 
