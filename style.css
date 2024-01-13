@@ -12,6 +12,7 @@ h1{
     font-style: italic;
     font-size:xx-large;
     font-weight: 1000;
+    border: 20px solid  rgb(25, 42, 42);
 }
 h2{
     display: inline;
@@ -37,6 +38,16 @@ hr{
     margin: 30px;
 }
 
+
+.page-container{
+    display: flex;
+    margin-right: 20px;
+}
+
+.main-content{
+    margin-left: 20px;
+}
+
 /* THIS IS FOR THE NAVIGATION BAR */
 
 .navigation-list{
@@ -51,13 +62,13 @@ hr{
     display: block;
     text-align: center;
     padding: 20px;
-    border: 15px solid rgb(44, 54, 54);
+    border: 15px solid rgb(25, 42, 42);
     max-width: 500px;
     min-width: 500px;
 }
 
 a:hover{
-    background-color:  rgb(44, 54, 54);
+    background-color:  rgb(25, 42, 42);
 
 }
 
@@ -76,20 +87,11 @@ a:hover{
     margin-top: 20px;
 }
 
-
-.page-container{
-    display: flex;
-    margin-right: 20px;
-}
-
-.main-content{
-    margin-left: 20px;
-}
-
+/* FOR THE HOMEWORK PAGE */
 .homework-content{
     flex: 1;
 }
-
+/* FOR THE COMMUNICATION PAGE */
 .email-form{
     margin: 25px;
 }
